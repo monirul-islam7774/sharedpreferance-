@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Register</string>
+    <string name="new_user_text">Add a new user</string>
+    <string name="button_text">save</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_phone">Enter your phone number</string>
+</resources>
