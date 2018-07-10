@@ -28,10 +28,14 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View view) {
 
 
-                String value = nameEdit.getText().toString();
+
                 Intent intent = new Intent(RegisterActivity.this,HomeActivity.class);
-                intent.putExtra("key",value);
+                intent.putExtra("name",nameEdit.getText().toString());
+                intent.putExtra("email",emailEdit.getText().toString());
+                intent.putExtra("number",phoneEdit.getText().toString());
                 setResult(1,intent);
+
+
                 finish();
             }
         });
